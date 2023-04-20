@@ -3,7 +3,7 @@ package InterviewQuestions;
 public class ReverseInteger {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		int input = 12345;
 		String result = "";
 		

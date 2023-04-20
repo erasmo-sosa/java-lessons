@@ -21,9 +21,15 @@ public class ArrayListExample {
 		fruitsArrList.add("strawberry");
 		fruitsArrList.add("watermelon");
 		System.out.println(fruitsArrList);
+		
 		fruitsArrList.remove("apple");
 		System.out.println(fruitsArrList);
 		System.out.println(fruitsArrList.contains("apple"));
+		
+		for (int i = 0; i < fruitsArrList.size(); i++)    
+            // Printing and display the elements in ArrayList
+            System.out.print(fruitsArrList.get(i) + " ");
+		
 	}
 
 }
