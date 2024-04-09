@@ -5,7 +5,9 @@ public class ReverseInteger {
 	public static void main(String[] args) {
 
 		int input = 12345;
+		int output = 0;
 		String result = "";
+		System.out.println("Input Integer: " + input);
 		
 		String str = Integer.toString(input);
 		    
@@ -13,10 +15,10 @@ public class ReverseInteger {
 	      result = result + str.charAt(i);
 	    }
 	    
-	    input = Integer.parseInt(result);
+	    output = Integer.parseInt(result);
 	    
-	    System.out.println(result);
-	    System.out.println(input);
+	    //System.out.println(result);
+	    System.out.println("Output Integer: " + output);
 
 	}
 
